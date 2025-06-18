@@ -11,7 +11,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+.idea/
 # AWS User-specific
 .idea/**/aws.xml
 
@@ -366,5 +366,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+application.properties
+.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/maven,macos,windows,linux,java,intellij,intellij+all,intellij+iml,visualstudiocode
