@@ -1,4 +1,4 @@
-package com.jj.scheduler.dao;
+package com.jj.scheduler.entity;
 
 public enum Status {
     PENDING,
