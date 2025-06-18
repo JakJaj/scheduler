@@ -1,4 +1,4 @@
-package com.jj.scheduler.dao;
+package com.jj.scheduler.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -26,6 +26,7 @@ public class Job {
     private LocalDateTime eventTime;
 
     @Column(name = "status")
+    @Enumerated(EnumType.STRING)
     private Status status;
 
     @Column(name = "created_at")
