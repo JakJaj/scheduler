@@ -294,4 +294,5 @@ backend/src/main/resources/*.properties
 
 .idea/
 Gradebook.iml
+scheduler.iml
 # End of https://www.toptal.com/developers/gitignore/api/java,maven,react,windows,macos,linux,intellij,visualstudiocode,vim
